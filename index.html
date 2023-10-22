@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </link>
     <title> Comé Tranquilo </title>
 </head>
+
 <body>
-    <nav class="navbar"> 
+    <nav class="navbar">
         <div class="container-fluid">
             <a class="navbar-brand ms-3" href="index.html">
                 <img class="logo" src="./asset/logocometranquilo.png">
             </a>
         </div>
-        
+
         <br>
         <br>
         <h1> Comé Tranquilo </h1>
@@ -30,62 +34,79 @@
     <br>
     <br>
     <header class="box1">
-        <p>
+        <h2>
             ¡Nosotros!
-        </p>
+        </h2>
     </header>
 
-    <text>
+    <p>
         <br>
-        ¡Hola, soy Fernando! En el 2021, luego de la pandemia, comencé este emprendimiento de comidas caseras. 
+        ¡Hola, soy Fernando! En el 2021, luego de la pandemia, comencé este emprendimiento de comidas caseras.
         <br>
-        Soy un apasionado de las brasas, amo pasar horas cerca del fuego y por eso cree "Comé Tranquilo", un proyecto para que todos puedan disfrutar de una rica comida con amigos, familia o seres queridos sin la necesidad de estresarse por comprar la carne, estar cerca del fuego o tener que servir. 
+        Soy un apasionado de las brasas, amo pasar horas cerca del fuego y por eso cree "Comé Tranquilo", un proyecto
+        para que todos puedan disfrutar de una rica comida con amigos, familia o seres queridos sin la necesidad de
+        estresarse por comprar la carne, estar cerca del fuego o tener que servir.
         <br>
         Acá la idea es que todos disfruten. Incluido vos.
-    </text>
+    </p>
     <br>
     <br>
     <header class="box2">
-        <p>
+        <h2>
             Servicios
-        </p>
+        </h2>
     </header>
     <br>
-       <section>
-            <div class="caja1"> <span class="bolded"> Asador Criollo </span> 
-                <p> 
-                    <br>
-                    Nos enfocamos en la calidad y el sabor. Las mejores carnes asadas al estilo argentino. 
-                </p>
-            </div>
-            
-            <div class="caja2"> <span class="bolded"> Día de Campo </span> 
-                <p>
-                    <br>
-                    Pasá el día en una estancia rural acompañado de tus seres queridos y un rico asado.
-                </p>
-            </div>
 
-            <div class="caja3"> <span class="bolded"> Coorporativos </span> 
-                <p>
-                    <br>
-                    Te brindamos un catering diferente para sorprender a tus socios y empleados.
-                </p>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./asset/asador.jpg" class="d-block w-100" alt="asadorcriollo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Asador Criollo</h5>
+                    <p>Nos enfocamos en la calidad y el sabor de las mejores carnes asadas al estilo argentino.</p>
+                </div>
             </div>
-
-            <div class="caja4"> <span class="bolded"> Viandas </span>  
-                <p>
-                    <br>
-                    ¿Tenes que cocinar para una reunión y no sabes que hacer? Tenemos la solución para vos.
-                </p>
+            <div class="carousel-item">
+                <img src="./asset/diadecampo.jpg" class="d-block w-100" alt="diadecampo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Día de Campo</h5>
+                    <p>Pasá el día en una estancia rural acompañado de tus seres queridos y un rico asado.</p>
+                </div>
             </div>
-        </section>
+            <div class="carousel-item">
+                <img src="./asset/corp.jpeg" class="d-block w-100" alt="coorporativos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Eventos Coorporativos</h5>
+                    <p>Te brindamos un catering diferente para sorprender a tus socios y empleados.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <br>
     <br>
     <header class="box3">
-        <p>
+        <h2>
             Menú
-        </p>
+        </h2>
     </header>
 
     <h3>
@@ -93,54 +114,54 @@
             <div class="articulos">
                 <div class="articulo">
                     <img class="menu" src="./asset/asadoalasador.jpg" alt="asadoalasador">
-                        <p> Asado al asador </p>
-                 </div>
-        
-                <div class="articulo">
-                        <img class="menu" src="./asset/ahumadajpg.jpg" alt="ahumada">
-                            <p> Carnes al ahumador </p>
+                    <p> Asado al asador </p>
                 </div>
-            
+
                 <div class="articulo">
-                        <img class="menu" src="./asset/asadoparrilla.jpg" alt="asadoparrilla">
-                            <p> Asado a la parrilla </p>
+                    <img class="menu" src="./asset/ahumadajpg.jpg" alt="ahumada">
+                    <p> Carnes al ahumador </p>
                 </div>
-        
+
                 <div class="articulo">
-                        <img class="menu" src="./asset/carnealdisco.jpg" alt="carnealdisco">
-                            <p> Carne al disco </p>
+                    <img class="menu" src="./asset/asadoparrilla.jpg" alt="asadoparrilla">
+                    <p> Asado a la parrilla </p>
                 </div>
-    
+
+                <div class="articulo">
+                    <img class="menu" src="./asset/carnealdisco.jpg" alt="carnealdisco">
+                    <p> Carne al disco </p>
+                </div>
+
             </div>
 
             <div class="articulos">
-                    <div class="articulo">
-                        <img class="menu" src="./asset/pizza.jpg" alt="pizza">
-                            <p> Pizza </p>
-                    </div>
+                <div class="articulo">
+                    <img class="menu" src="./asset/pizza.jpg" alt="pizza">
+                    <p> Pizza </p>
+                </div>
 
-                    <div class="articulo">
-                        <img class="menu" src="./asset/spiedo.jpg" alt="spiedo">
-                            <p> Pollo al spiedo </p>
-                    </div>
-    
-                    <div class="articulo">
-                        <img class="menu" src="./asset/vegetales.jpg" alt="vegetales">
-                            <p> Vegetales asados </p>
-                    </div>
+                <div class="articulo">
+                    <img class="menu" src="./asset/spiedo.jpg" alt="spiedo">
+                    <p> Pollo al spiedo </p>
+                </div>
 
-                    <div class="articulo">
-                        <img class="menu" src="./asset/ensaladas.jpg" alt="ensaladas">
-                            <p> Ensaladas y guarniciones </p>
-                    </div>
+                <div class="articulo">
+                    <img class="menu" src="./asset/vegetales.jpg" alt="vegetales">
+                    <p> Vegetales asados </p>
+                </div>
+
+                <div class="articulo">
+                    <img class="menu" src="./asset/ensaladas.jpg" alt="ensaladas">
+                    <p> Ensaladas y guarniciones </p>
+                </div>
             </div>
         </div>
     </h3>
     <br>
     <header class="box5">
-        <p>
+        <h2>
             Contactanos
-        </p>
+        </h2>
     </header>
 
     <text>
@@ -152,49 +173,52 @@
         <span class="bolded"> Instagram: </span> @cometranquilo
         <br>
     </text>
-    <script src="./script.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 <br>
 <br>
-    <text> <span class="bolded"> Pedinos tu presupuesto </span>  </text>
+<p> 
+    <span class="bolded"> Pedinos tu presupuesto </span> 
+</p>
 <br>
 <br>
-    <form action="method">
-        <label for="nombre"> Nombre: </label>
-        <input type="text" name="nombre" id="nombre"/>
-        <br>
-        <br>
+<form action="method">
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre" id="nombre" />
+    <br>
+    <br>
 
-        <label for="mail"> Mail: </label>
-        <input type="text" name="mail" id="mail"/>
-        <br>
-        <br>
+    <label for="mail"> Mail: </label>
+    <input type="text" name="mail" id="mail" />
+    <br>
+    <br>
 
-        <label for="telefono"> Teléfono: </label>
-        <input type="text" name="telefono" id="telefono"/>
-        <br>
-        <br>
+    <label for="telefono"> Teléfono: </label>
+    <input type="text" name="telefono" id="telefono" />
+    <br>
+    <br>
 
-        <label for="evento"> Tipo de evento: </label>
-        <input type="text" name="evento" id="evento"/>
-        <br>
-        <br>
+    <label for="evento"> Tipo de evento: </label>
+    <input type="text" name="evento" id="evento" />
+    <br>
+    <br>
 
-        <label for="invitados"> Cantidad de comensales: </label>
-        <input type="text" name="invitados" id="invitados"/>
-        <br>
-        <br>
+    <label for="invitados"> Cantidad de comensales: </label>
+    <input type="text" name="invitados" id="invitados" />
+    <br>
+    <br>
 
-        <label for="otros"> Contanos más sobre tu evento... </label>
-        <br>
-        <br>
-        <textarea name="area" id="area" cols="80" rows="10"></textarea>
-        <br>
-        <br>
-    </form>
+    <label for="otros"> Contanos más sobre tu evento... </label>
+    <br>
+    <br>
+    <textarea name="area" id="area" cols="80" rows="10"></textarea>
+    <br>
+    <br>
+</form>
 
 <footer>
     <br>
     <h4> Copyright &copy; <a href=""> Come Tranquilo</a> Todos los derechos reservados </h4>
 </footer>
+
 </html>
